@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About</title>
+	<link rel="stylesheet" href="About.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Merriweather:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="AboutR.css">
+    <link rel="stylesheet" href="AboutTR.css">
+    <!-- <link rel="stylesheet" href="CSS_Files/Tab_Responsive_File/About.css"> -->
+</head>
+<body>
+	<img id="bg-img" src="https://cdn.spacetelescope.org/archives/images/thumb700x/heic1012a.jpg" alt="">
+	<nav>
+		<ul>
+			<li class="onlyleftli"><img id="logo" src="https://freewebsitetemplates.com/preview/space-science/images/logo.png" alt=""></li>
+			<li id="menu"><img  onclick="hamburger()" src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/menu-bar-icon.svg" alt=""></li>
+
+			<div id="colapsableSection" class="burgerdiv">
+			<li id="li1" class="navli"><a href="index.html">HOME</a></li>
+			<li id="li2" class="navli"><a href="About.html">ABOUT</a></li>
+			<li id="li3" class="navli"><a href="Project.html">PROJECT</a></li>
+			<li id="li4" class="navli"><a href="Blog.html">BLOG</a></li>
+			<li id="li5" class="navli"><a href="Contact.html">CONTACT</a></li>
+			</div>
+
+			<li id="home" class="navli"><a href="index.html">HOME</a></li>
+			<li class="navli"><a href="About.html">ABOUT</a></li>
+			<li class="navli"><a href="Project.html">PROJECT</a></li>
+			<li class="navli"><a href="Blog.html">BLOG</a></li>
+			<li class="navli"><a href="Contact.html">CONTACT</a></li>
+		</ul>
+	</nav>
+	<div id="about">
+	    <div class="first">
+			<h1>ABOUT</h1>
+		</div>
+		<div class="second">
+			<h1>WE HAVE FREE TEMPLATES FOR EVERYONE</h1>
+		</div>
+		<div class="third">
+			<p><strong>Our website templates are created with inspiration, checked for quality and originality and meticulously sliced and coded. What’s more, they’re absolutely free! You can do a lot with them. You can modify them. You can use them to design websites for clients, so long as you agree with the Terms of Use. You can even remove all our links if you want to.</strong></p>
+		</div>
+	</div>	
+	<div id="moretemp">
+		<div class="text">
+			<div class="heading">
+				<h2>WE HAVE MORE TEMPLATES FOR YOU</h2>
+			</div>
+			<div class="para">
+				<p>Looking for more templates? Just browse through all our Free Website Templates and find what you’re looking for. But if you don’t find any website template you can use, you can try our Free Web Design service and tell us all about it. Maybe you’re looking for something different, something special. And we love the challenge of doing something different and something special.</p>
+			</div>
+			
+		</div>
+		<div class="image">
+			<img src="https://freewebsitetemplates.com/preview/space-science/images/earth-satellite.jpg" alt="">
+		</div>
+	</div>
+	<div id="community">
+		<div class="image">
+			<img src="https://freewebsitetemplates.com/preview/space-science/images/space-shuttle.png" alt="">
+		</div>
+		<div class="text">
+			<div class="heading">
+				<h2>BE PART OF OUR COMMUNITY</h2>
+			</div>
+			<div class="para">
+				<p>If you’re experiencing issues and concerns about this website template, join the discussion on our forum and meet other people in the community who share the same interests with you.</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	<div id="tempdetail">
+		<!-- <div class="tdheading"> -->
+			<h2>TEMPLATE DETAILS</h2>
+		<!-- </div> -->
+		<div class="tdpara">
+			<p>Design Version 1. Code version 5. Website Template details, discussion and updates for this Space Science Website Template. Website Template design by Free Website Templates. Please feel free to remove some or all the text and links of this page and replace it with your own About content.</p>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="foot">
+		<!-- <div id="footer-heading"> -->
+		<h2 class="h2">FOLLOW OUR MISSIONS ON</h2>
+		<!-- </div> -->
+		</div>
+		<div id="chaarimg">
+		<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/facebook-icon.svg" alt="" class="footimg">
+		<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/twitter-icon.svg" alt="" class="footimg">
+		<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-icon.svg" alt="" class="footimg">
+		<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/pinterest-icon.svg" alt="" class="footimg">
+	    </div>
+	    
+	</div>
+</body>
+<script>
+	let hamburgeropen = false;
+
+	function hamburger() {
+        hamburgeropen = !hamburgeropen;
+        document.getElementById('li1').classList.toggle('hamburgeropen');
+        document.getElementById('li2').classList.toggle('hamburgeropen');
+        document.getElementById('li3').classList.toggle('hamburgeropen');
+        document.getElementById('li4').classList.toggle('hamburgeropen');
+        document.getElementById('li5').classList.toggle('hamburgeropen');
+        document.getElementById('colapsableSection').classList.toggle('colapsableSection');
+        document.getElementById('menu').classList.toggle('menu');
+        document.getElementById('logo').classList.toggle('logo');
+	}
+</script>
+</html>

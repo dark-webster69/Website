@@ -1,0 +1,314 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Merriweather', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+bd-red{
+	/*border:1px solid red;*/
+}
+body{
+	background-color: black;
+}
+body>img{
+    height: 100vh;
+    width: 100vw;
+    opacity: 90%;
+    position: fixed;
+    z-index: -2;
+}
+ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	color: white;
+	align-items: center;
+	background-color: #00000063;
+}
+ul a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.29rem;
+}
+nav ul div.burgerdiv .navli{
+	display: none;
+}
+.hamburgeropen{
+	display: block !important;
+}
+li#menu img{
+	height: 0;
+	width: 0;
+	/*display: none;*/
+}
+#sete{
+	width: 97vw;
+	/*border:1px solid red;*/
+	display: flex;
+	justify-content: space-between;
+}
+#div1>img{
+	/*display: inline-block;*/
+    margin: 2.3rem 0 0 2rem;
+}
+#div1{
+	/*border:1px solid red;*/
+	width: 45%;
+
+}
+#div2{
+	/*border:1px solid red;*/
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 55%;
+} 
+#div2 h1{
+	font-size: 3.5rem;
+	color: white;
+	text-align: center;
+} 
+#div2 h2{
+	font-size: 3rem;
+	color: white;
+	text-align: center;
+}   
+#div2 button{
+	width: 10rem;
+	height: 3.5rem;
+	font-size: 1.1rem;
+	border: none;
+	background-color: black;
+	color: grey;
+}
+#fourimg{
+	width: 95vw;
+	height: 33vh;
+	margin: auto;
+	/*overflow: auto;*/
+	/*border: 1px solid red;*/
+}
+#featpro{
+	width: 95vw;
+	height: 20%;
+	/*border: 1px solid red;*/
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #00000080;
+	color: grey;
+}
+#fourimgs{
+	display: flex;
+	margin: auto;
+	/*border: 1px solid red;*/
+	height: 80%;
+}
+#fourimgs img{
+	width: 25%;
+	height: 100%;
+}
+#ourmission{
+	width: 100%;
+    height: 25vh;
+    background-color: #630031;
+    margin: auto;
+    /*border: 1px solid red;*/
+}
+.ourmisn{
+	width: 100%;
+	height: 50%;
+    /*border: 1px solid red;*/
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#paratext{
+    text-align: center;
+}
+#featvid-latblg{
+	/*border: 1px solid red;*/
+	width: 100%;
+    height: 62vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+#featvid{
+	/*border: 1px solid red;*/
+	height: 100%;
+	width: 40%;
+}
+#featvid img{
+	width: 100%;
+	height: 85%;
+}
+#featvid-heading{
+	/*border: 1px solid red;*/
+	height: 25%;
+	width: 100%;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+#featvid-img{
+	height: 71%;
+}
+#latblg{
+	/*border: 1px solid red;*/
+	height: 100%;
+	width: 40%;
+}
+#latblg-heading{
+	/*border: 1px solid red;*/
+	height: 25%;
+	width: 100%;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+.section{
+	width: 100%;
+	height: 30%;
+	/*border: 1px solid red;*/
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.imgdiv{
+	height: 100%;
+	width: 25%;
+	/*border: 1px solid red;*/
+}
+.headingdiv{
+	height: 100%;
+	width: 75%;
+	/*border: 1px solid red;*/
+	text-align: justify;
+}
+.headingdiv h2{
+	margin-left: 20px;
+}
+.headingdiv h4{
+	margin-left: 20px;
+}
+.headingdiv #h2{
+	margin-top: 2.6vw; 
+}
+/*.section img{
+	height: 77%;
+}*/
+.section #img2{
+	margin-top: 2.6vw; 
+}
+button.butn{
+	margin-left: 201px;
+	background-color: #3c0f38;
+	border: none;
+	height: 38px;
+	width: 100px;
+	color: white;
+}
+#footer{
+	display: flex;
+	height: 10vh;
+	width: 100%;
+	justify-content: center;
+    background-color: #a3a3a3;
+}
+/**/
+.foot{
+    width: 50%;
+	display: flex;
+    justify-content: space-around;
+	align-items: center;
+	color: white;
+	font-size: 1.03rem;
+}
+#footer #chaarimg{
+    /*border: 1px solid red;*/
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer #chaarimg img{
+    margin: 10px 15px; 
+	height: 60%;
+	width: 20%;
+	filter: invert(100%);
+}
+
+/*hover efect*/
+
+.navli a:hover{
+    color: grey;
+}
+#div2 .btn:hover{
+	background-color: #ab000b;
+	color: white;
+}
+#div2 .btn{
+	cursor: pointer;
+}
+#fourimgs img{
+	cursor: pointer;
+}
+#fourimgs img:hover{
+	opacity: 85%;
+}
+#featvid-img img{
+	cursor: pointer;
+}
+#featvid-img img:hover{
+    opacity: 80%;
+}
+.imgdiv img{
+	cursor: pointer;
+}
+.imgdiv img:hover{
+	opacity: 80%;
+}
+.headingdiv button{
+	cursor: pointer;
+}
+.headingdiv button:hover{
+	background-color: #ab000b;
+	color: white;
+}
+#chaarimg img{
+	cursor: pointer;
+}
+#chaarimg img:hover{
+	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
+	opacity: 0.7;
+}
+.hamburgeropen{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	/*border: 1px solid red;*/
+}
+.colapsableSection{
+    width: 2100%;
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid red;*/
+}
+.logo{
+	display: none;
+}
+.menu{
+    
+}
+
+
+
+
+
+

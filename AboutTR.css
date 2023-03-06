@@ -1,0 +1,313 @@
+@media screen and (max-width: 850px){
+ .navli{
+            display: none;
+      }
+      .hamburgeropen{
+      display: block !important;
+      }
+      li#menu img{
+
+      height: 60px;
+      width: 55px;
+      filter: invert(100%);
+      /*display: none;*/
+      }
+      li#menu{
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;  
+      }
+      nav{
+            width: 100%;
+      }
+      ul .onlyleftli{
+      width: 75%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+      ul .onlyleftli img{
+            width: 95%;
+      }
+      ul{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            background-color: #00000063;
+      }
+      body>img{
+            width: 100%;
+            height: 100%;
+      }
+      /* #moretemp .image{
+            margin-top: 20px;
+            width: 100%;
+      }
+      #moretemp .image img{
+            width: 65%;
+      }*/
+      #about{
+            width: 100%;
+            height: 390px;
+            background-color: black;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+      }
+      #moretemp .text{
+            margin-left: 10px;
+      }
+      #moretemp{
+      width: 100%;
+      height: 340px;
+      /*border: 1px solid red;*/
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: #620031;
+      color: white;
+}
+      #moretemp .image{
+            width: 45%;
+      }
+      #moretemp .text{
+            width: 80%;
+      }
+      .image img{
+            /*height: 80%;*/
+            width: 96%;
+      }
+      #moretemp .text .heading{
+            margin-bottom: 10px;
+      }
+      #community{
+      width: 100%;
+      height: 335px;
+      /*border: 1px solid red;*/
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: black;
+      color: white;
+}
+ #community .image img{
+            width: 90%;
+      }
+      #community .image{
+            width: 50%;
+      }
+      #community .text{
+            width: 80%;
+      }
+      #tempdetail{
+      width: 100%;
+      height: 240px;
+      border: none;
+}
+ #footer{
+            /*margin-top: 25px;*/
+            width: 100%;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /*border: 1px solid red;*/
+
+      }
+      #footer .foot{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-size: 1rem;
+      }
+      .foot h2{
+            /*width: 100%;*/
+            margin-top: 50px;
+      }
+      #chaarimg{
+            width: 100%;
+            height: 100px;
+            /*border: 1px solid white;*/
+      }
+      #footer #chaarimg img{
+           margin: 2% 3%; 
+           height: 25%;
+           width: 12%;
+           filter: invert(100%);
+      }
+
+}
+@media screen and (max-width: 570px){
+       .navli{
+            display: none;
+      }
+      li#menu img{
+
+      height: 60px;
+      width: 55px;
+      filter: invert(100%);
+      /*display: none;*/
+      }
+      li.menu{
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;  
+      }
+      nav{
+            width: 100%;
+      }
+      ul .onlyleftli{
+      width: 75%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+      ul .onlyleftli img{
+            width: 95%;
+      }
+       ul{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            background-color: #00000063;
+      }
+      body>img{
+            width: 100%;
+            height: 100%;
+      }
+      #about{
+            width: 100%;
+            height: 500px;
+            background-color: black;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+      }
+      #moretemp .text .heading{
+            display: flex;
+            justify-content: center;
+      }
+      #moretemp .text .heading h2{
+            width: 300px;
+            margin: auto;
+            /*border: 1px solid red;*/
+            text-align:center;
+            font-size: 1.25rem;
+      }
+      #moretemp{
+            display: flex;
+            flex-direction: column-reverse;
+            text-align: center;
+            justify-content: space-evenly;
+            /*align-items: center;*/
+            height: 450px;
+      }
+      #moretemp .image{
+            margin-top: 20px;
+            width: 100%;
+      }
+      #moretemp .image img{
+            width: 65%;
+      }
+      #community{
+            width: 100%;
+            height: 340px;
+            background-color: black;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+      }
+      #community img{
+            width: 95%;
+            margin-top: 25px;
+            margin-left: 5px;
+      }
+      #tempdetail{
+            width: 100%;
+            height: 230px;
+      }
+      #tempdetail h2{
+            width: 260px;
+            margin: auto;
+      }
+      .tdheading{
+        border: 1px solid red;
+        display: none;
+      }     
+       #footer{
+            /*margin-top: 25px;*/
+            width: 100%;
+            height: 110px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+      }
+      #footer .foot{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-size: 1rem;
+      }
+      .foot h2{
+            /*width: 100%;*/
+            margin-top: 5px;
+      }
+      #chaarimg{
+            width: 100%;
+            height: 50px;
+      }
+      #footer #chaarimg{
+                height: 65%;
+      }
+      #footer #chaarimg img{
+           margin: 2% 3%; 
+           height: 25%;
+           width: 12%;
+           filter: invert(100%);
+
+      }
+      .text{
+            width: 80%;
+            /*border: 1px solid white; */
+
+      }
+
+}
+/*@media screen and only(max-width: 830px){
+      #about{
+         height: 40vh;
+      }
+      #moretemp{
+         height: 25vh;
+      }
+      #community{
+         height: 25vh;
+      }
+      #tempdetail{
+         height: 15vh;
+      }
+
+}*/
+
+
+
+
+      
+      
+      	

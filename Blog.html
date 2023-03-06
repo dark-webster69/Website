@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blog</title>
+	<link rel="stylesheet" href="Blog.css">
+	<link rel="stylesheet" href="BlogR.css">
+	<link rel="stylesheet" href="BlogTR.css">
+	<!-- <link rel="stylesheet" href="CSS_Files/Tab_Responsive_File/Blog.css"> -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Merriweather:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="CSS_Files/reponsiveWebLayout.aboutCSS.responsive.css"> -->
+</head>
+<body>
+	<img id="bg-img" src="https://cdn.spacetelescope.org/archives/images/thumb700x/heic1012a.jpg" alt="">
+	<nav>
+		<ul>
+			<li class="onlyleftli"><img id="logo" src="https://freewebsitetemplates.com/preview/space-science/images/logo.png" alt=""></li>
+			<li id="menu"><img  onclick="hamburger()" src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/menu-bar-icon.svg" alt=""></li>
+
+			<div id="colapsableSection" class="burgerdiv">
+			<li id="li1" class="navli"><a href="index.html">HOME</a></li>
+			<li id="li2" class="navli"><a href="About.html">ABOUT</a></li>
+			<li id="li3" class="navli"><a href="Project.html">PROJECT</a></li>
+			<li id="li4" class="navli"><a href="Blog.html">BLOG</a></li>
+			<li id="li5" class="navli"><a href="Contact.html">CONTACT</a></li>
+			</div>
+
+			<li id="home" class="navli"><a href="index.html">HOME</a></li>
+			<li class="navli"><a href="About.html">ABOUT</a></li>
+			<li class="navli"><a href="Project.html">PROJECT</a></li>
+			<li class="navli"><a href="Blog.html">BLOG</a></li>
+			<li class="navli"><a href="Contact.html">CONTACT</a></li>
+		</ul>
+	</nav>
+	<div id="heading">
+		<h1>BLOG</h1>
+	</div>
+	<div id="section">
+		<div id="innersec1">
+			<div id="first">
+				<img src="https://freewebsitetemplates.com/preview/space-science/images/astronaut.jpg" alt="">
+				<h2>THIS IS JUST A PLACE HOLDER.</h2>
+				<p class="para1">FEBRUARY 6, 2023</p>
+				<p class="para2">This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.</p>
+				<div class="btn">
+				<button>READ MORE</button>
+				</div>
+			</div>
+			<div id="second">
+				<img src="https://freewebsitetemplates.com/preview/space-science/images/satellite-dish.jpg" alt="">
+				<h2>THIS IS JUST A PLACE HOLDER.</h2>
+				<p class="para1">FEBRUARY 6, 2023</p>
+				<p class="para2">This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.</p>
+				<div class="btn">
+				<button>READ MORE</button>
+				</div>
+			</div>
+		</div>
+		<div id="innersec2">
+			<div class="first">
+				<h1>FEATURED POSTS</h1>
+				<img src="https://freewebsitetemplates.com/preview/space-science/images/moon-satellite.jpg" alt="">
+				<h2>SOYUZ TMA-M</h2>
+				<p id="para">FEBRUARY 6, 2023</p>
+			</div>
+			<div class="second">
+				<h1>RECENT POSTS</h1>
+				<div class="div1">
+					<img src="https://freewebsitetemplates.com/preview/space-science/images/alien-life.jpg" alt="">
+					<div class="text">
+					<h2>ALIEN LIFE</h2> 
+					<p>FEBRUARY 3, 2023</p>
+				</div>
+				</div>
+				<div class="div1">
+					<img src="https://freewebsitetemplates.com/preview/space-science/images/galaxy.jpg" alt="">
+					<div class="text">
+					<h2>THE GALAXY</h2> 
+					<p>FEBRUARY 1, 2023</p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="foot">
+		<!-- <div id="footer-heading"> -->
+		<h2 class="h2">FOLLOW OUR MISSIONS ON</h2>
+		<!-- </div> -->
+		</div>
+		<div id="chaarimg">
+		<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/facebook-icon.svg" alt="" class="footimg">
+		<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/twitter-icon.svg" alt="" class="footimg">
+		<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-icon.svg" alt="" class="footimg">
+		<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/pinterest-icon.svg" alt="" class="footimg">
+	    </div>
+	    
+	</div>
+	
+</body>
+<script>
+	let hamburgeropen = false;
+
+	function hamburger() {
+        hamburgeropen = !hamburgeropen;
+        document.getElementById('li1').classList.toggle('hamburgeropen');
+        document.getElementById('li2').classList.toggle('hamburgeropen');
+        document.getElementById('li3').classList.toggle('hamburgeropen');
+        document.getElementById('li4').classList.toggle('hamburgeropen');
+        document.getElementById('li5').classList.toggle('hamburgeropen');
+        document.getElementById('colapsableSection').classList.toggle('colapsableSection');
+        document.getElementById('menu').classList.toggle('menu');
+        document.getElementById('logo').classList.toggle('logo');
+	}
+</script>
+</html>
+
+

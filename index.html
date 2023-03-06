@@ -1,0 +1,137 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="Home.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/    css2?family=Merriweather:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="HomeR.css">
+    <link rel="stylesheet" href="HomeTR.css">
+    <!-- <link rel="stylesheet" href="CSS_Files/Tab_Responsive_File/Home.css"> -->
+    </head>
+
+<body>
+	<img id="bg-img" src="https://cdn.spacetelescope.org/archives/images/thumb700x/heic1012a.jpg" alt="">
+	<nav>
+		<ul>
+			<li class="onlyleftli"><img id="logo" src="https://freewebsitetemplates.com/preview/space-science/images/logo.png" alt=""></li>
+			<li id="menu"><img  onclick="hamburger()" src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/menu-bar-icon.svg" alt=""></li>
+
+			<div id="colapsableSection" class="burgerdiv">
+			<li id="li1" class="navli"><a href="index.html">HOME</a></li>
+			<li id="li2" class="navli"><a href="About.html">ABOUT</a></li>
+			<li id="li3" class="navli"><a href="Project.html">PROJECT</a></li>
+			<li id="li4" class="navli"><a href="Blog.html">BLOG</a></li>
+			<li id="li5" class="navli"><a href="Contact.html">CONTACT</a></li>
+			</div>
+
+			<li id="home" class="navli"><a href="index.html">HOME</a></li>
+			<li class="navli"><a href="About.html">ABOUT</a></li>
+			<li class="navli"><a href="Project.html">PROJECT</a></li>
+			<li class="navli"><a href="Blog.html">BLOG</a></li>
+			<li class="navli"><a href="Contact.html">CONTACT</a></li>
+		</ul>
+	</nav>
+	<div id="sete">
+		<div id="div1">
+			<img id="seteimg" src="https://freewebsitetemplates.com/preview/space-science/images/satellite.png" alt="">
+		</div>
+		<div id="div2">
+			<h1>SOYUZ TMA-M</h1>
+			<h2>SPACECRAFT</h2>
+			<button class="btn">READ MORE</button>
+		</div>		
+	</div>
+	<div id="fourimg">
+		<div id="featpro">
+			<h2>FEATURED PROJECTS</h2>
+		</div>
+		<div id="fourimgs">
+			<img src="https://freewebsitetemplates.com/preview/space-science/images/project-image1.jpg" alt="">
+			<img src="https://freewebsitetemplates.com/preview/space-science/images/project-image2.jpg" alt="">
+			<img src="https://freewebsitetemplates.com/preview/space-science/images/project-image3.jpg" alt="">
+			<img src="https://freewebsitetemplates.com/preview/space-science/images/project-image4.jpg" alt="">
+		</div>
+	</div>
+	<div id="ourmission">
+		<div class="ourmisn">
+			<h1>OUR MISSION</h1>
+		</div>
+		<div id="paratext" class="ourmisn">
+			<p>This website template has been designed by Free Website Templates for you, for free. You can <br> replace all this text with your own text.</p>
+		</div>
+	</div>
+	<div id="featvid-latblg">
+		<div id="featvid">
+			<div id="featvid-heading">
+				<h1>FEATURED VIDEO</h1>
+			</div>
+			<div id="featvid-img">
+				<img src="https://freewebsitetemplates.com/preview/space-science/images/mars-rover.jpg" alt="">
+			</div>
+		</div>
+		<div id="latblg">
+			<div id="latblg-heading">
+				<h1>LATEST BLOG</h1>
+			</div>
+			<div id="section1" class="section">
+				<div class="imgdiv">
+				    <img src="https://freewebsitetemplates.com/preview/space-science/images/finding-planet.jpg" alt="">
+				</div>
+				<div class="headingdiv">
+				    <h2>FINDING PLANET X-123</h2>
+				    <h4>FEBRUARY 3, 2023</h4>
+				    <button class="butn"><b>READ MORE</b></button>
+				</div>
+			</div>
+			<div id="section2" class="section">
+				<div class="imgdiv">
+				    <img id="img2" src="https://freewebsitetemplates.com/preview/space-science/images/new-satellitedish.jpg" alt="">
+			    </div>
+				<div class="headingdiv">
+				    <h2 id="h2">NEW SATELLITE DISH</h2>
+				    <h4>FEBRUARY 3, 2023</h4>
+				    <button id="butn2" class="butn"><b>READ MORE</b></button>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="foot">
+		<!-- <div id="footer-heading"> -->
+		<h2>FOLLOW OUR MISSIONS ON</h2>
+		<!-- </div> -->
+		</div>
+		<div id="chaarimg">
+		<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/facebook-icon.svg" alt="" class="footimg">
+		<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/twitter-icon.svg" alt="" class="footimg">
+		<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-icon.svg" alt="" class="footimg">
+		<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/pinterest-icon.svg" alt="" class="footimg">
+	    </div>
+	    
+	</div>
+</body>
+<script>
+	let hamburgeropen = false;
+
+	function hamburger() {
+        hamburgeropen = !hamburgeropen;
+        document.getElementById('li1').classList.toggle('hamburgeropen');
+        document.getElementById('li2').classList.toggle('hamburgeropen');
+        document.getElementById('li3').classList.toggle('hamburgeropen');
+        document.getElementById('li4').classList.toggle('hamburgeropen');
+        document.getElementById('li5').classList.toggle('hamburgeropen');
+        document.getElementById('colapsableSection').classList.toggle('colapsableSection');
+        document.getElementById('menu').classList.toggle('menu');
+        document.getElementById('logo').classList.toggle('logo');
+	}
+</script>
+</html>
+
+
+		
+		
+			

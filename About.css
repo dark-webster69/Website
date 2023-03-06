@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Audiowide', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navli a:hover{
+    color: grey;
+}
+
+body>img{
+    height: 100vh;
+    width: 100vw;
+    opacity: 90%;
+    position: fixed;
+    z-index: -2;
+}
+ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	color: white;
+	align-items: center;
+	background-color:  #00000063;
+}
+ul a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.29rem;
+}
+nav ul div.burgerdiv .navli{
+	display: none;
+}
+.hamburgeropen{
+	display: block !important;
+}
+li#menu img{
+	height: 0;
+	width: 0;
+	/*display: none;*/
+}
+#about{
+	color: white;
+	width: 100%;
+	height: 42vh;
+	background-image: url('https://scitechdaily.com/images/Milky-Way-From-Canyonlands-National-Park-777x518.jpg?ezimgfmt=ng:webp/ngcb2');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.first{
+	width: 100%;
+	height: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*border: 1px solid red;*/
+}
+.second{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid red;*/
+}
+.third{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+.third p{
+	width: 80%;
+	margin: auto;
+}
+#moretemp{
+	width: 100%;
+	height: 40vh;
+	/*border: 1px solid red;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #620031;
+	color: white;
+}
+.text{
+	width: 60%;
+	/*border: 1px solid red;*/
+	height: 65%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+h2{
+	color: #A3A3A3;
+}
+#community{
+	width: 100%;
+	height: 50vh;
+	/*border: 1px solid red;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: black;
+	color: white;
+}
+#community img{
+	margin-left: 30px;
+}
+#tempdetail{
+	width: 100%;
+	height: 25vh;
+	background-color: #3c0f38;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+#tempdetail h2{
+	width: 300px;
+	margin: auto;
+	margin-top: 20px;
+}
+#tempdetail .tdpara{
+	width: 70%;
+	height: 70%;
+	margin: auto;
+	/*border: 1px solid red;*/
+	margin-top: 10px;
+	color: white;
+}
+#footer{
+	display: flex;
+	height: 10vh;
+	width: 100%;
+	justify-content: center;
+    background-color: #a3a3a3;
+}
+/**/
+.foot{
+    width: 50%;
+	display: flex;
+    justify-content: space-around;
+	align-items: center;
+	color: white;
+	font-size: 1.03rem;
+}
+#footer #chaarimg{
+    /*border: 1px solid red;*/
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer #chaarimg img{
+    margin: 10px 15px; 
+	height: 60%;
+	width: 20%;
+	filter: invert(100%);
+}
+#footer .foot h2{
+	color: white;
+}
+#chaarimg img{
+	cursor: pointer;
+}
+#chaarimg img:hover{
+	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
+	opacity: 0.7;
+}
+.hamburgeropen{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	/*border: 1px solid red;*/
+}
+.colapsableSection{
+    width: 2100%;
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid red;*/
+}
+.logo{
+	display: none;
+}
+.menu{
+    
+}
+
+
+
+
+
+
+
+	
+    
